@@ -17,14 +17,15 @@
 <body>
   <div class="container">
     <section class="top-section">
+      
+      <div class="section top-section__photo">
+        <img class="photo" src="img/me.jpg" alt="Rasha">
+      </div>
       <div class="section top-section__name">
         <h1>Rasha <br> Moumneh</h1>
         <h2>Full Stack Web Developer</h2>
       </div>
-      <div class="section top-section__photo">
-        <img class="photo" src="img/me.jpg" alt="Rasha">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nulla dolor.</p>
-      </div>
+      
       <div class="section top-section__contact">
           <nav class="contact__social">
             <a href="https://twitter.com/rashamoumneh" target="_blank"><img src="img/ico-twitter.png" alt="Twitter icon"></a>
@@ -39,41 +40,74 @@
           </ul>
       </div>
     </section>
+
     <section class="intro">
       <h3>Personal Profile</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et animi, cumque molestiae dolor, est maiores sit officiis, minus eum at neque rem accusamus ipsum totam necessitatibus nisi qui explicabo voluptates.</p>
     </section>
+
     <section class="skills">
       <h3>Technical Skills</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et animi, cumque molestiae dolor, est maiores sit officiis, minus eum at neque rem accusamus ipsum totam necessitatibus nisi qui explicabo voluptates.</p>
     </section>
+
     <section class="work">
       <h3>Work Experience</h3>
-      <section class="work__job">
-        <div class="job__column-1">
-          <h4>Senior Software Engineer</h4>
-          <p>Linode</p>
-        </div>
-        <div class="job__column-2">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vero. Vero vitae dolore ipsam doloribus harum iusto accusantium, ullam alias blanditiis sunt optio hic, perspiciatis nihil fugiat quos velit nam?</p>
-          <ul>
-            <li>Responsibility 1</li>
-            <li>Responsibility 2</li>
-            <li>Responsibility 3</li>
-            <li>Responsibility 4</li>
-          </ul>
-
-        </div>  
-
-      </section>    
-
-
+      <div class="section-column">
+        <section class="section-column__inner">
+          <div class="job__column">
+            <h4>Senior Software Engineer</h4><br>
+            <p class="company-name">Mozilla</p>
+            <p>Philadelphia, PA</p>
+            <p>June 2018 - Present</p>
+          </div>
+          <div class="job__column">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vero. Vero vitae dolore ipsam doloribus harum iusto accusantium, ullam alias blanditiis sunt optio hic, perspiciatis nihil fugiat quos velit nam?</p><br>
+            <ul>
+              <li>Responsibility 1</li>
+              <li>Responsibility 2</li>
+              <li>Responsibility 3</li>
+              <li>Responsibility 4</li>
+            </ul>
+          </div>  
+        </section>
+        <section class="section-column__inner job-2">
+          <div class="job__column">
+            <h4>Junior Software Engineer</h4><br>
+            <p class="company-name">Linode</p>
+            <p>Philadelphia, PA</p>
+            <p>June 2015 - May 2018</p>
+          </div>
+          <div class="job__column">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vero. Vero vitae dolore ipsam doloribus harum iusto accusantium, ullam alias blanditiis sunt optio hic, perspiciatis nihil fugiat quos velit nam?</p><br>
+            <ul>
+              <li>Responsibility 1</li>
+              <li>Responsibility 2</li>
+              <li>Responsibility 3</li>
+              <li>Responsibility 4</li>
+            </ul>
+          </div>  
+        </section>
+    </div>
     </section>
+    
     <section class="education">
       <h3>Education</h3>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta quas sed accusamus cumque, odit repudiandae asperiores ut ad alias ipsum vitae laudantium, dolorum quibusdam temporibus amet! Harum eveniet natus pariatur.</p>
+      <div class="section-column">
+        <div class="section-column__inner">
+          <h4>University 1</h4><br>
+          <p>Degree</p><br>
+          <p>Philadelphia, PA</p>
+          <p>Date of graduation</p>
+        </div>  
+        <div class="section-column__inner uni-2">
+            <h4>University 2</h4><br>
+            <p>Degree</p><br>
+            <p>Philadelphia, PA</p>
+            <p>Date of graduation</p>
+        </div>  
+      </div>
     </section>
-  </div>
 </body>
 
 </html>
