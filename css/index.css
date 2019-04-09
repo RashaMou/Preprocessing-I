@@ -86,7 +86,6 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
   vertical-align: baseline;
 }
@@ -106,7 +105,6 @@ section {
 }
 body {
   line-height: 1;
-  background-color: #fecb03;
 }
 ol,
 ul {
@@ -134,4 +132,123 @@ table {
 html,
 body {
   height: 100%;
+}
+body {
+  background-color: #fecb03;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.section-border {
+  border-bottom: 2px solid #fecb03;
+}
+.section-header h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  padding-right: 8%;
+}
+.section-style {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #fecb03;
+  padding: 2%;
+}
+.section-style h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  padding-right: 8%;
+}
+.test-border {
+  border: 1px solid red;
+}
+body {
+  font-family: 'Abel', sans-serif;
+}
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  background: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.top-section {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #fecb03;
+  padding: 2%;
+}
+.top-section h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  padding-right: 8%;
+}
+.top-section .section {
+  flex-basis: 100%;
+}
+.top-section .top-section__name h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 1%;
+}
+.top-section .top-section__name h2 {
+  font-size: 1.5rem;
+}
+.top-section .top-section__photo {
+  padding-right: 8%;
+  display: flex;
+}
+.top-section .top-section__photo .photo {
+  width: 40%;
+  height: auto;
+  padding-right: 4%;
+}
+.intro {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #fecb03;
+  padding: 2%;
+}
+.intro h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  padding-right: 8%;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #fecb03;
+  padding: 2%;
+}
+.skills h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  padding-right: 8%;
+}
+.work {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #fecb03;
+  padding: 2%;
+}
+.work h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  padding-right: 8%;
+}
+.work .work__job {
+  display: flex;
+}
+.education {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #fecb03;
+  padding: 2%;
+}
+.education h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  padding-right: 8%;
 }

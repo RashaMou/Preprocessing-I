@@ -20,7 +20,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	// font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -30,12 +30,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-@main-color: @supernova;
-@supernova: #fecb03;
-
 body {
 	line-height: 1;
-	background-color: @main-color;
 }
 ol, ul {
 	list-style: none;
@@ -61,4 +57,120 @@ table {
 html, body {
     height: 100%;
 }
+
+// VARIABLES //
+
+@main-color: @supernova;
+@supernova: #fecb03;
+@grey: #eeeeee;
+@header-font: 'Roboto', sans-serif;
+@main-font: 'Abel', sans-serif;
+
+body {
+	background-color: @main-color;
+}
+
+// MIXINS //
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-border {
+	border-bottom: 2px solid @main-color;
+}
+
+.section-header {
+	h3 {
+		font-family: @header-font;
+		font-size: 1.8rem;
+		padding-right: 8%;
+	}
+}
+
+.section-style {
+	.flex();
+	.section-border();
+	.section-header;
+	padding: 2%;
+}
+
+.test-border {
+	border: 1px solid red;
+}
+
+// STYLES //
+
+body {
+	font-family: @main-font;
+}
+.container {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	background: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.top-section {
+	padding: 2%;
+	background-color: @grey;
+	.section-style();
+	.section {
+		flex-basis: 100%;
+	}
+	.top-section__name {
+	
+		h1 {
+			font-family: @header-font;
+			font-size: 2.5rem;
+			margin-bottom: 1%;
+		}
+
+		h2 {
+			font-size: 1.5rem;
+		}
+	}
+	.top-section__photo {
+		padding-right: 8%;
+	
+		display: flex;
+		.photo {
+			width: 40%;
+			height: auto;
+			padding-right: 4%;
+		}
+	}	
+}
+
+.intro {
+	.section-style();
+}
+
+.skills {
+	.section-style();
+}
+
+.work {
+	.section-style();
+	.work__job {
+		display: flex;
+		.job__column-1 {
+			padding-right: 30%;
+		}
+		}
+	}
+
+}
+
+.education {
+	.section-style();
+}
+
+
+
+
+
 
