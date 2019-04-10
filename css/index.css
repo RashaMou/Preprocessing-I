@@ -255,6 +255,8 @@ body {
   line-height: 1.2;
 }
 .container .top-section .top-section__contact .contact__social {
+  display: flex;
+  justify-content: space-around;
   padding-bottom: 10px;
 }
 .container .top-section .top-section__contact .fa-envelope {
