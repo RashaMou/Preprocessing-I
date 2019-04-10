@@ -226,9 +226,13 @@ body {
 }
 .container .top-section .top-section__contact {
   margin-right: 10%;
+  line-height: 1.2;
 }
 .container .top-section .top-section__contact .contact__social {
   padding-bottom: 10px;
+}
+.container .top-section .top-section__contact .fas {
+  padding-right: 5%;
 }
 @media (max-width: 500px) {
   .container .top-section .top-section__contact {
