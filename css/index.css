@@ -169,8 +169,11 @@ body {
     font-size: 1rem;
   }
 }
-.test-border {
-  border: 1px solid red;
+@media (max-width: 500px) {
+  .mobile-section-padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 body {
   font-family: 'Abel', sans-serif;
@@ -289,6 +292,12 @@ body {
     font-size: 1rem;
   }
 }
+@media (max-width: 500px) {
+  .container #intro {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
 .container #skills {
   display: flex;
   justify-content: space-between;
@@ -305,6 +314,12 @@ body {
     font-size: 1rem;
   }
 }
+@media (max-width: 500px) {
+  .container #skills {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
 .container #work {
   display: flex;
   justify-content: space-between;
@@ -319,6 +334,12 @@ body {
 @media (max-width: 500px) {
   .container #work h3 {
     font-size: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .container #work {
+    padding-top: 30px;
+    padding-bottom: 0;
   }
 }
 .container #work .section-column {
@@ -345,7 +366,7 @@ body {
     flex-direction: column;
   }
 }
-.container #work .section-column .job-2 {
+.container #work .section-column .last-item {
   padding-top: 20px;
   border-bottom: none;
 }
@@ -366,14 +387,40 @@ body {
     font-size: 1rem;
   }
 }
+@media (max-width: 500px) {
+  .container #education {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
 .container #education h4 {
   font-weight: bold;
 }
 .container #education .section-column {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   width: 100%;
 }
-.container #education .section-column .uni-2 {
-  padding-left: 37%;
+@media (max-width: 500px) {
+  .container #education .section-column .section-column__inner {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+  }
+}
+@media (max-width: 500px) {
+  .container #education .section-column .second-item {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .container #education .section-column .last-item {
+    border-bottom: none;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .container #education .section-column {
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
