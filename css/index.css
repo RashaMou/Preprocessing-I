@@ -231,8 +231,12 @@ body {
 .container .top-section .top-section__contact .contact__social {
   padding-bottom: 10px;
 }
+.container .top-section .top-section__contact .fa-envelope {
+  display: inline;
+  padding-right: 8%;
+}
 .container .top-section .top-section__contact .fas {
-  padding-right: 5%;
+  padding-right: 8%;
 }
 @media (max-width: 500px) {
   .container .top-section .top-section__contact {
