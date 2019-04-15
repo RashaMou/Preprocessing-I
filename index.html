@@ -4,9 +4,12 @@
 <head>
   <meta charset="utf-8">
 
-  <title>My Resume</title>
+  <title>Rasha's Resume</title>
 
   <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Abel|Roboto:900" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -14,6 +17,112 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <div class="container">
+    <nav class="top-nav">
+      <a href="#intro">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Experience</a>
+      <a href="#education">Education</a>
+      <a href="https://rashamou.github.io/portfolio/" target="_blank">Portfolio</a>
+    </nav>
+    <section class="top-section">
+      <div class="name-photo-container">
+        <img class="photo" src="img/me.jpg" alt="Rasha">   
+        <div class="top-section__name">
+          <h1>Rasha <br> Moumneh</h1>
+          <h2>Full Stack Web Developer</h2>
+        </div>
+      </div>
+      
+      <div class="top-section__contact">
+          <ul class="contact__social">
+            <li><a href="https://twitter.com/rashamoumneh" target="_blank"><img src="img/ico-twitter.png" alt="Twitter icon"></a></li>
+            <li><a href="https://github.com/RashaMou" target="_blank"><img src="img/ico-github.png" alt="Github icon"></a></li>
+            <li><a href="https://www.linkedin.com/in/rashamoumneh/" target="_blank"><img src="img/ico-linkedin.png" alt="LinkedIn icon"></a></li>
+          </ul>
+          <ul class="contact__details">
+            <li class="icon ico-email"><i class="far fa-envelope"></i>r.moumneh@gmail.com</li>
+            <li class="icon ico-laptop"><i class="fas fa-laptop"></i><a href="https://rasha.dev">rasha.dev</a></li>
+            <li class="icon ico-tel"><i class="fas fa-phone"></i>(111) 456 7890</li>
+            <li class="icon ico-address"><i class="fas fa-map-marker-alt"></i>Philadelphia, PA</li>
+          </ul>
+      </div>
+    </section> <!--top-section-->
+
+    <section id="intro">
+      <h3>Personal Profile</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et animi, cumque molestiae dolor, est maiores sit officiis, minus eum at neque rem accusamus ipsum totam necessitatibus nisi qui explicabo voluptates.</p>
+    </section> <!--intro-->
+
+    <section id="skills">
+      <h3>Technical Skills</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et animi, cumque molestiae dolor, est maiores sit officiis, minus eum at neque rem accusamus ipsum totam necessitatibus nisi qui explicabo voluptates.</p>
+    </section> <!--skills-->
+
+    <section id="work">
+      <h3>Work Experience</h3>
+      <div class="section-column">
+        <section class="section-column__inner">
+          <div class="job__column">
+            <h4>Senior Software Engineer</h4><br>
+            <p class="company-name">Mozilla</p>
+            <p>Philadelphia, PA</p>
+            <p>June 2018 - Present</p>
+          </div>
+          <div class="job__column">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vero. Vero vitae dolore ipsam doloribus harum iusto accusantium, ullam alias blanditiis sunt optio hic, perspiciatis nihil fugiat quos velit nam?</p><br>
+            <ul>
+              <li>Responsibility 1</li>
+              <li>Responsibility 2</li>
+              <li>Responsibility 3</li>
+              <li>Responsibility 4</li>
+            </ul>
+          </div>  
+        </section>
+        <section class="section-column__inner last-item">
+          <div class="job__column">
+            <h4>Junior Software Engineer</h4><br>
+            <p class="company-name">Linode</p>
+            <p>Philadelphia, PA</p>
+            <p>June 2015 - May 2018</p>
+          </div>
+          <div class="job__column">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vero. Vero vitae dolore ipsam doloribus harum iusto accusantium, ullam alias blanditiis sunt optio hic, perspiciatis nihil fugiat quos velit nam?</p><br>
+            <ul>
+              <li>Responsibility 1</li>
+              <li>Responsibility 2</li>
+              <li>Responsibility 3</li>
+              <li>Responsibility 4</li>
+            </ul>
+          </div>  
+        </section>
+    </div>
+    </section> <!--work-->
+    
+    <section id="education">
+      <h3>Education</h3>
+      <div class="section-column">
+        <div class="section-column__inner">
+          <h4>Lambda School</h4>
+          <p>Remote</p><br>
+          <p>Full Stack Web Development</p> 
+          <p>& Computer Science</p>
+          
+        </div>
+        <div class="section-column__inner second-item">
+          <h4>University College London</h4>
+            <p>London, UK</p><br>
+          <p>MSc Anthropology</p>
+          
+        </div>  
+        <div class="section-column__inner last-item">
+            <h4>American University of Beirut</h4>
+            <p>Beirut, Lebanon</p><br>
+            <p>BA Psychology</p><br><br>
+            
+        </div>  
+      </div>
+    </section> <!--education-->
 </body>
+
 </html>
